@@ -9,4 +9,15 @@
 // * Print the variable within the loop statement
 // * Use break to exit the loop
 
-fn main() {}
+fn main() {
+    let mut n: i32 = 1;
+    loop {
+        if n == 5 {
+            break;
+        } else {
+            println!("{ }", n);
+        }
+        n += 1;
+
+    }
+}

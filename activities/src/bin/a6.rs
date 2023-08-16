@@ -10,4 +10,15 @@
 // * Print the variable within the while loop
 // * Do not use break to exit the loop
 
-fn main() {}
+fn main() {
+    let mut n: i32 = 5;
+
+    while n >= 0 {
+        if n == 0 {
+            println!("done!");
+        } else {
+            println!("{}", n);
+        }
+        n -= 1;
+    }
+}
